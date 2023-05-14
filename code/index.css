@@ -15,7 +15,7 @@
     .the__head{
         height: 660px;
         width:100%;
-        background-image: url("/html_project/home.html/shopdecor_profile/ảnh/bakcground_shop2.jpg");
+        background-image: url("/ảnh/bakcground_shop2.jpg");
 
         background-size: cover;
         background-repeat: no-repeat;
@@ -231,7 +231,7 @@
         display: block;
     }
     .btc__bar2{
-        background-image: url(/html_project/home.html/shopdecor_profile/ảnh/san_pham4.png);
+        background-image: url(/ảnh/san_pham4.png);
         background-repeat: no-repeat;
         position: absolute;
         left: 0;
@@ -267,7 +267,7 @@
     }
     .btc__bar3{
         background-color: #ffffff;
-        background-image: url(/html_project/home.html/shopdecor_profile/ảnh/san_pham5.png);
+        background-image: url(/ảnh/san_pham5.png);
         background-repeat: no-repeat;
         z-index: 10;
         background-position: right;
@@ -293,7 +293,7 @@
         opacity: 0.7;
     }
     /* end */
-    .head__text{
+.head__text{
         height: auto;
         width: 400px;
         font-size: 17px;
@@ -318,22 +318,60 @@
         background-color: white;
         color: #5a5757;
         font-weight: 300;
-    }
+    } 
     /* body_wed */
-    
-    .information{
-        background-color: rgb(255, 255, 255);
-        height: 200px;
-        width: 300px;
-    }
-.the__body{
-    background-color: #ddd;
-    margin-top: 50px;
-}
 h1{
-    font-size: 35px;
+    margin: 35px 0;
+    font-size: 37px;
     text-align: center;
 }
+.card_one{
+   width: 380px;
+   height: 505px;
+   border-radius: 8px;
+   margin: 5px 10px;
+   border: 2px solid red;
+}
+.card_one img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 8px;
+}
+.text_cardone{
+    background-color: #ffffff;
+    position: relative;
+    top: -120px;
+    left: 6px;
+    height: 100px;
+    width: 365px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.the__body p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-left: 20px;
+    opacity: 1;
+}
+.the__body h2{
+    font-size: 30px; 
+    padding-left: 10px;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    opacity: 1;
+}
+.card_one:hover .text_cardone{
+    background-color: #000;
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 600;
+    padding:5px;
+
+}
+
 }
 
 
