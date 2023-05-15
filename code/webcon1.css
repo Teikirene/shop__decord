@@ -1,0 +1,291 @@
+.the__head{
+    height: 660px;
+    width:100%;
+   
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    margin: 10px 5px;
+}
+.logo__store img{
+    width: 150px;
+    height: 110px;
+    transform: translateX(115px);
+}
+.icon{
+    margin: 30px;
+    padding-right: 30px;
+    transform: translate(-70px,10px);
+    cursor: pointer;
+    
+}
+.icon i{
+    padding-right: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(171, 61, 61);
+    color: rgb(237, 125, 144);
+}
+.nar__bar{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+.interaction__bar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.interaction__bar span{
+    cursor: pointer;
+    padding: 5px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    transition: 0.75s;
+}
+.interaction__bar span:hover{
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+.search__bar{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.search__bar i{
+    cursor: pointer;
+}
+input{
+    background: transparent;
+    padding: 5px 0;
+    border: unset;
+    transform: translateY(0.5px);
+}
+input:focus{
+    border: unset;
+    outline: none;
+    border-bottom: 2px solid brown;
+}
+input::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.under__bar{
+    padding: 15px 0;
+    margin-left: 4rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hav__bar{
+    display: flex;
+}
+
+.under__bar li{
+    z-index: 10;
+    padding: 15px;
+    transition: 0.75;
+    cursor: pointer;
+    transform: translateY(-13px);
+    list-style: none;
+     /* transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    visibility: visible;   */
+}
+.under__bar li:hover{
+    background-color: #ddd;
+    
+}
+/* dropdown menu bed & bath */
+tr,td{
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+td:hover{
+    background-color: #eee;
+    opacity: 0.7;
+}
+.btm__bar{
+    position: relative;
+}
+.btc__bar{
+    z-index: 10;
+    cursor: auto;
+    height:auto ;
+    width: 680px;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ffffff;
+    display: none;
+    
+}
+.img_no1{
+    height: 120px;
+    width: 150px;
+    float: right ;
+    transform: translate(-20px,90%);
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 5px;
+}
+.img_no2{
+    height: 120px;
+    width: 150px;
+    float: right ;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.btm__bar:hover .btc__bar{
+    display: block;
+    margin-top: 10px;
+    transition: -5s;
+}
+/* end */
+
+/* dropdown menu rugs */
+.btm__bar1{
+    position: relative;
+}
+.btm__bar1:hover .btc__bar1{
+    display: block;
+}
+.btc__bar1{
+    padding-left: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    font-size: 15px;
+    font-weight: 300;
+    margin:20px 0px;
+    padding-top: 20px;
+    display: none;
+    cursor: auto;
+    z-index: 100;
+}
+.btc__bar1 li{
+    display: flex;
+    width: 90px;
+    padding: 2.5px;
+    cursor: pointer;
+}
+.btc__bar1 li:hover{
+    background-color:#ddd;
+    opacity: 0.7;
+}
+.btc__bar1 img{
+    position: relative;
+    top: -300px;
+    left:180px;
+}
+.btc__bar1 img:hover{
+    background-color: unset;
+}
+/* end rugs */
+
+/* ready made curtains */
+.btm__bar2{
+    position: relative;
+}
+.btm__bar2:hover .btc__bar2{
+    display: block;
+}
+.btc__bar2{
+    background-image: url(/ảnh/san_pham4.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 380px;
+    font-size: 15px;
+    font-weight: 300;
+    margin:20px 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+    display: none;
+    cursor: auto;
+    position: fixed;
+}
+.btc__bar2 li{
+    display: flex;
+    width: 90px;
+    padding: 2.5px;
+    cursor: pointer;
+}
+.btc__bar2 li:hover{
+    background-color:#ddd;
+    opacity: 0.7;
+}
+/*  end   */
+
+/*  Cushion cover */
+.btm__bar3{
+    position: relative;
+}
+.btm__bar3:hover .btc__bar3{
+    display: block;
+}
+.btc__bar3{
+    background-color: #ffffff;
+    background-image: url(/ảnh/san_pham5.png);
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-position: right;
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 380px;
+    font-size: 15px;
+    font-weight: 300;
+    margin:20px 0px;
+    padding-top: 20px;
+    display: none;
+    cursor: auto;
+}
+.btc__bar3 li{
+    display: flex;
+    width: 110px;
+    padding: 2.5px;
+    cursor: pointer;
+}
+.btc__bar3 li:hover{
+    background-color:#ddd;
+    opacity: 0.7;
+}
+/* end */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
