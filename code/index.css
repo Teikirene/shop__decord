@@ -98,7 +98,7 @@
     input:focus{
         border: unset;
         outline: none;
-        border-bottom: 2px solid brown;
+        border-bottom: 2px solid rgb(255, 255, 255);
     }
     input::placeholder{
         font-size: 15px;
@@ -325,19 +325,38 @@ h1{
     font-size: 37px;
     text-align: center;
 }
-.card_one{
-   width: 380px;
-   height: 505px;
-   border-radius: 8px;
-   margin: 5px 10px;
-   border: 2px solid red;
+.box_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card_one img{
+.box_card p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-left: 20px;
+    opacity: 1;
+}
+.box_card h2{
+    font-size: 30px; 
+    padding-left: 10px;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    opacity: 1;
+}
+.box_card img{
         width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: center;
         border-radius: 8px;
+}
+/* san pham 1 */
+.card_one{
+   height: 505px;
+   border-radius: 8px;
+   margin: 5px 10px;
+   width: 25%;
 }
 .text_cardone{
     background-color: #ffffff;
@@ -348,20 +367,7 @@ h1{
     width: 365px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-}
-.the__body p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    padding-left: 20px;
-    opacity: 1;
-}
-.the__body h2{
-    font-size: 30px; 
-    padding-left: 10px;
-    position: absolute;
-    top: 28px;
-    left: 0;
-    opacity: 1;
+     width: 96%;
 }
 .card_one:hover .text_cardone{
     background-color: #000;
@@ -369,9 +375,84 @@ h1{
     opacity: 0.6;
     font-weight: 600;
     padding:5px;
-
 }
-
+/* san pham 2: */
+.card_two{
+   height: 505px;
+   border-radius: 8px;
+   margin: 5px 10px;
+   width: 25%;
+}
+.text_cardtwo{
+    background-color: #ffffff;
+    position: relative;
+    top: -120px;
+    left: 6px;
+    height: 100px;
+    width: 365px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+     width: 96%;
+}
+.card_two:hover .text_cardtwo{
+    background-color: #000;
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 600;
+    padding:5px;
+}
+/* san pham 3 */
+.card_thir{
+   width: 380px;
+   height: 505px;
+   border-radius: 8px;
+   margin: 5px 10px;
+   width: 25%;
+}
+.text_cardthir{
+    background-color: #ffffff;
+    position: relative;
+    top: -120px;
+    left: 6px;
+    height: 100px;
+    width: 365px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+     width: 96%;
+}
+.card_thir:hover .text_cardthir{
+    background-color: #000;
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 600;
+    padding:5px;
+}
+/* san pham 4 */
+.card_four{
+   width: 380px;
+   height: 505px;
+   border-radius: 8px;
+   margin: 5px 10px;
+   width: 25%;
+}
+.text_cardfour{
+    background-color: #ffffff;
+    position: relative;
+    top: -120px;
+    left: 6px;
+    height: 100px;
+    width: 365px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+     width: 96%;
+}
+.card_four:hover .text_cardfour{
+    background-color: #000;
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 600;
+    padding:5px;
+}
 }
 
 
