@@ -1,4 +1,4 @@
-@media screen and (min-width:500px) {
+@media screen and (min-width:1024px) {
     :root{
         --hover_color:white;
     }
@@ -319,6 +319,7 @@
         font-weight: 300;
     } 
     /* body_wed */
+    /* phan shop categories */
 h1{
     margin: 35px 0;
     font-size: 37px;
@@ -330,13 +331,12 @@ h1{
     align-items: center;
     margin: auto;
     width: 1175px;
-    height: 520px;
+    height: 530px;
     overflow-x:scroll; 
     overflow-y: hidden;
-    border: 2px solid red;
 }
 .box_card img{
-    height: 490px;
+    height: 480px;
     width: 380px;
     border-radius: 7px;
 }
@@ -353,15 +353,16 @@ h1{
     top:-25px;
     left: 10px;
 }
-/* san pham 1 */
-.card_one{
+/* san pham  */
+.card{
     height: 510px;
     width: 380px;
     position: relative;
     top:10px;
     margin: 10px;
+
 }
-.text_cardone{
+.text_card{
     position: absolute;
     top: 375px;
     left:10px;
@@ -370,42 +371,61 @@ h1{
     border-radius: 7px;
     background-color: #ffffff;
     color: black;
+    transition: 0.5s;
 }
-/* san_pham 2 */
-.card_two{
-    height: 510px;
-    width: 380px;
-    position: relative;
-    top:10px;
-    margin: 10px;
-}
-.text_cardtwo{
+.card:hover .text_card{
+    color: rgb(255, 255, 255);
+    background-color:black;
+    opacity: 0.7;
     position: absolute;
-    top: 375px;
-    left:10px;
-    width: 95%;
-    height: 100px;
-    border-radius: 7px;
-    background-color: #ffffff;
-    color: black;
+    top: 350px;
+    left:0px;
+    width: 100%;
 }
-.card_thir{
-    height: 510px;
-    width: 380px;
+ .box_card::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+    background-image: url('https://sgl.com.vn/wp-content/uploads/2020/11/cay-day-leo-e1606278973736.jpg');
+    background-size: contain;
+    color: #5a5757;
+    height: 7px;
+} 
+.box_card::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 10px;
+} 
+/* phan 2: new arrivals */
+.box{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+}
+.box p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.box h3{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
-    top:10px;
-    margin: 10px;
+    top: -20px;
 }
-.text_cardthir{
-    position: absolute;
-    top: 375px;
-    left:10px;
-    width: 95%;
-    height: 100px;
-    border-radius: 7px;
-    background-color: #ffffff;
-    color: black;
+
+.left{
+    border: 2px solid rgb(0, 0, 0);
 }
+
+.left img{
+    height:772px;
+}
+
+
 
 }
 
